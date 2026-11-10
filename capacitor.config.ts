@@ -19,6 +19,10 @@ const config: CapacitorConfig = {
       splashFullScreen: true,
       splashImmersive: true,
     },
+    SystemBars: {
+      insetsHandling: 'css',
+      style: 'DARK',
+    },
     StatusBar: {
       style: 'DARK',
       backgroundColor: '#07080a',
