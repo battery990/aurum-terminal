@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">金衡 AURUM</string>
+    <string name="title_activity_main">金衡 AURUM</string>
+    <string name="package_name">com.aurum.goldterminal</string>
+    <string name="custom_url_scheme">com.aurum.goldterminal</string>
+</resources>
