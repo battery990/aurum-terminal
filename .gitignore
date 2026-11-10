@@ -17,6 +17,9 @@ captures/
 *.iml
 .idea/
 
+# local release downloads
+release/
+
 # signing
 *.jks
 *.keystore

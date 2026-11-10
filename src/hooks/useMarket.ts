@@ -113,6 +113,8 @@ export function useMarket(tf: Timeframe, refreshMs: number): MarketData {
         const t = await fetchTicker();
         if (cancelled) return;
         setTicker(t);
+        setMode('live');
+        setError(null);
         setLastUpdate(Date.now());
         setCandles((prev) => {
           if (!prev.length) return prev;

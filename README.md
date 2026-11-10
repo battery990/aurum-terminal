@@ -1,6 +1,12 @@
 # AURUM 金衡 · 黄金 CFD 智能行情终端
 
+[![Android APK](https://github.com/battery990/aurum-terminal/actions/workflows/android.yml/badge.svg)](https://github.com/battery990/aurum-terminal/actions/workflows/android.yml)
+
 一套代码同时构建 **Android / iOS / Web** 的黄金行情分析应用。基于 React 19 + TypeScript + Vite 8 + Capacitor 8，Android APK 由 GitHub Actions 云端构建。
+
+## 下载 Android APK
+
+前往 [GitHub Releases](https://github.com/battery990/aurum-terminal/releases/latest) 下载 `aurum-terminal-1.0.0.apk`。APK 使用 debug 签名，可直接侧载安装（需在系统中允许安装未知来源应用）。
 
 > 行情使用 Binance `PAXG/USDT` 作为 XAU/USD 现货参考。PAXG 是 1:1 黄金锚定代币，但存在溢价/折价与流动性差异，详见文末免责声明。
 
